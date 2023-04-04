@@ -1,3 +1,3 @@
 # Tutoriales
 
-* [**Django - 101**](Tutoriales/django-101.md)
+* [**Django - 101**](./django-101.md)
