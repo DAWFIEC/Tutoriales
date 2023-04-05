@@ -2,13 +2,10 @@
 
 ## Requerimientos
 
-Desde la línea de comandos (DLLI), instalar:
+Desde la línea de comandos, instalar **Psycopg2** (Interfaz para trabajar con PostgreSQL) y **Django**:
 
 ```
-python -m pip install psycopg2-binary
-```
-```
-python -m pip install Django
+python -m pip install psycopg2-binary django
 ```
 
 ## Instrucciones
