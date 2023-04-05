@@ -11,7 +11,7 @@ python -m pip install psycopg2-binary
 python -m pip install Django
 ```
 
-## Primeros pasos
+## Instrucciones
 
 * Crear un proyecto plantilla, con: 
   
@@ -31,7 +31,7 @@ python -m pip install Django
   python manage.py runserver
   ```
 
-## Importante
+## Notas
 
 Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) respecto a los archivos **manage.py**, **settings.py**, y **models.py**.
 
