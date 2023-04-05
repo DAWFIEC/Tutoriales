@@ -29,9 +29,9 @@ python -m pip install Django
   python manage.py runserver
   ```
 
-## Estructura básica 
+## Importante
 
-Cuatro archivos [importantes](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) **manage.py**, **settings.py**, _project/project_, y _project/project/**models.py**_.
+Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) respecto a los archivos **manage.py**, **settings.py**, y **models.py**.
 
 ## Referencias
 
