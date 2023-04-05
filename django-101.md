@@ -4,12 +4,19 @@
 
 Desde la línea de comandos, instalar:
 
-* python3 -m pip install psycopg2-binary
-* python3 -m pip install Django
+```
+python3 -m pip install psycopg2-binary
+python3 -m pip install Django
+```
 
 ## Primeros pasos
 
-* Crear un proyecto plantilla, con: `django-admin startproject project`
+* Crear un proyecto plantilla, con: 
+  
+  ```
+  django-admin startproject project
+  ```
+
 * Estructura básica de un proyecto: **manage.py**, **settings.py**, _project/project_ y _project/project/**models.py**_.
 
 ## Referencias
