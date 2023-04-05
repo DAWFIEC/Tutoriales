@@ -2,22 +2,28 @@
 
 ## Requerimientos
 
-Desde la línea de comandos, instalar:
+Desde la línea de comandos (DLLI), instalar:
 
 ```
-python3 -m pip install psycopg2-binary
-python3 -m pip install Django
+python -m pip install psycopg2-binary
+python -m pip install Django
 ```
 
 ## Primeros pasos
 
-* Crear un proyecto plantilla, con: 
+* Crear un proyecto plantilla, DLLI con: 
   
   ```
-  django-admin startproject project
+  python -m django startproject project
   ```
 
 * Estructura básica de un proyecto: **manage.py**, **settings.py**, _project/project_ y _project/project/**models.py**_.
+* Levante el servicio, DLLI con:
+
+  ```
+  python manage.py runserver
+  ```
+
 
 ## Referencias
 
