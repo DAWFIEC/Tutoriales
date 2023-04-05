@@ -17,13 +17,21 @@ python -m pip install Django
   python -m django startproject project
   ```
 
-* Estructura básica de un proyecto: **manage.py**, **settings.py**, _project/project_ y _project/project/**models.py**_.
+* Acceda a la carpeta del proyecto, DDLI con:
+
+  ```
+  cd project 
+  ```
+
 * Levante el servicio, DLLI con:
 
   ```
   python manage.py runserver
   ```
 
+## Estructura básica 
+
+Cuatro archivos [importantes](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) **manage.py**, **settings.py**, _project/project_, y _project/project/**models.py**_.
 
 ## Referencias
 
