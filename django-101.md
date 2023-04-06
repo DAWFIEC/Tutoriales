@@ -30,7 +30,7 @@ python -m pip install psycopg2-binary django
 
 ## Notas
 
-Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) respecto a los archivos **manage.py**, **settings.py**, y **models.py**.
+Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) el uso de los archivos **manage.py**, **settings.py**, y **models.py** en un proyecto de Django.
 
 ## Referencias
 
