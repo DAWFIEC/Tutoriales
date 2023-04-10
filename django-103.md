@@ -28,7 +28,7 @@
   python manage.py migrate
   ```
   
-* Revise los cambios en la base de datos con la UI **pgAdmin**
+* Revise los cambios en la base de datos.
 
 * Agregue conexión con la aplicación **'api'** en el archivo `project/settings.py`
    
@@ -69,7 +69,29 @@
   python manage.py migrate
   ```
 
-* Revise los cambios en la base de datos con la UI **pgAdmin**
+* Revise los cambios en la base de datos.
+
+### Opcional
+
+Interactúe con el ORM desde la línea de comandos: 
+
+* Active el shell de Python, con:
+  
+  ```
+  python manage.py shell
+  ```
+
+* Explore el API de conexión con la base de datos, con:
+
+  ```
+  from api.models import Section
+  
+  s = Section(name="A1")
+  
+  s.save()
+  ```
+
+* Revise los cambios en la base de datos.
 
 ## Notas
 
