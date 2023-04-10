@@ -22,7 +22,7 @@
     }
     ```
 
-* Migre los cambios en la base de datos, con:
+* Desde la línea de comandos [LC], migre los cambios en la base de datos, con:
 
   ```
   python manage.py migrate
@@ -57,13 +57,13 @@
 	name = models.CharField(max_length=200)
   ```
 
-* Genere los archivos de migración de la aplicación **api**, con:
+* [LC] Genere los archivos de migración de la aplicación **api**, con:
 
   ```
   python manage.py makemigrations api
   ```
 
-* Migre los cambios en la base de datos, con:
+* [LC] Migre los cambios en la base de datos, con:
 
   ```
   python manage.py migrate
@@ -75,7 +75,7 @@
 
 Interactúe con el ORM desde la línea de comandos: 
 
-* Active el shell de Python, con:
+* [LC] Active el shell de Python, con:
   
   ```
   python manage.py shell
