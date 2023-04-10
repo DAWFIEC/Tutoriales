@@ -6,7 +6,7 @@
 
 ## Instrucciones
 
-* Cree la aplicación **api**, con:
+* Desde la línea de comandos [LC], cree la aplicación **api**, con:
 
   ```
   python manage.py startapp api
@@ -45,7 +45,7 @@
   ]
   ```
 
-* Levante el servicio, con:
+* [LC] Levante el servicio, con:
 
   ```
   python manage.py runserver
