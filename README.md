@@ -4,9 +4,9 @@
 
 ## Django
 
-* [**Django - 101**](./django-101.md)
-* [**Django - 102**](./django-102.md)
-
+* [**Django - 101**](./django-101.md): Creación de un proyecto y arranque de un servidor HTTP local
+* [**Django - 102**](./django-102.md): Creación de una aplicación y vistas.
+* [**Django - 103**](./django-103.md): Conexión con PostgreSQL.
 
 ## Créditos 
 
