@@ -2,16 +2,11 @@
 
 ## Requerimientos
 
-* Complete las instrucciones previas [django-101](django-101.md)
+* Complete las instrucciones previas [django-102](django-102.md)
 * Descargue e instale [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 
 ## Instrucciones
 
-* Cree la aplicación **orm**, con:
-
-```
-python manage.py startapp orm
-```
 
 * Configure la conexión con **PostgreSQL** en el archivo `project/settings.py`
 
@@ -30,7 +25,7 @@ DATABASES = {
 
 ## Notas
 
-* Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) la diferencia entre **proyecto y aplicación**.
+* 
 
 ## Referencias
 
