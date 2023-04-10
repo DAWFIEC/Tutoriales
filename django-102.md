@@ -12,7 +12,7 @@
   python manage.py startapp api
   ```
 
-* Agregue la vista _index_ en el archivo  `api/views.py`
+* Agregue la vista _index_ en el archivo  `api/views.py`.
 
   ```
   from django.shortcuts import render
@@ -22,7 +22,7 @@
       return HttpResponse("Hola, mundo")
   ```
 
-* Cree y modifique el archivo `api/urls.py` con los patrones de rutas y las vistas
+* Cree y modifique el archivo `api/urls.py` con los patrones de rutas y las vistas.
 
   ```
   from django.urls import path
@@ -30,6 +30,18 @@
 
   urlpatterns = [
       path("", views.index, name="index"),
+  ]
+  ```
+  
+* Modifique el archivo `project/urls.py` al agregar la referencia a la función **include** y los patrones de rutas de la aplicación `api/urls.py`.
+
+  ```
+  from django.contrib import admin
+  from django.urls import include, path
+
+  urlpatterns = [
+      path("api/", include("api.urls")),
+      path('admin/', admin.site.urls),
   ]
   ```
 
