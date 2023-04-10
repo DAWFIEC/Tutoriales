@@ -73,7 +73,7 @@
 
 ## Notas
 
-* Revise las [aplicaciones](https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-INSTALLED_APPS) activas y el significado de una [migración](https://docs.djangoproject.com/en/4.2/ref/django-admin/#django-admin-migrate) en un proyecto de Django.
+* Revise la utilidad de las [aplicaciones](https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-INSTALLED_APPS) activas y el significado de una [migración](https://docs.djangoproject.com/en/4.2/ref/django-admin/#django-admin-migrate) en un proyecto de Django.
 
 ## Referencias
 
