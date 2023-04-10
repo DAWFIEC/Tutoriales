@@ -22,9 +22,7 @@
       return HttpResponse("Hola, mundo")
   ```
 
-* Cree el archivo `api/urls.py`
-
-* Agregue la ruta raíz (`'/'`) en el archivo `api/urls.py`
+* Cree y modifique el archivo `api/urls.py` con los patrones de rutas y las vistas
 
   ```
   from django.urls import path
