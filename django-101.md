@@ -2,7 +2,7 @@
 
 ## Requerimientos
 
-Desde la línea de comandos, instale **Psycopg2** (Interfaz para trabajar con PostgreSQL) y **Django**:
+Desde la línea de comandos [LC], instale **Psycopg2** (Interfaz para trabajar con PostgreSQL) y **Django**:
 
 ```
 python -m pip install psycopg2-binary django
@@ -10,19 +10,19 @@ python -m pip install psycopg2-binary django
 
 ## Instrucciones
 
-* Cree un proyecto plantilla, con: 
+* Desde la línea de comandos [LC], cree un proyecto plantilla, con: 
   
   ```
   python -m django startproject project
   ```
 
-* Acceda a la carpeta del proyecto, con:
+* [LC] Acceda a la carpeta del proyecto, con:
 
   ```
   cd project 
   ```
 
-* Levante el servicio, con:
+* [LC] Levante el servicio, con:
 
   ```
   python manage.py runserver
