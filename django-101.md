@@ -2,7 +2,7 @@
 
 ## Requerimientos
 
-Desde la línea de comandos, instalar **Psycopg2** (Interfaz para trabajar con PostgreSQL) y **Django**:
+Desde la línea de comandos, instale **Psycopg2** (Interfaz para trabajar con PostgreSQL) y **Django**:
 
 ```
 python -m pip install psycopg2-binary django
@@ -10,7 +10,7 @@ python -m pip install psycopg2-binary django
 
 ## Instrucciones
 
-* Crear un proyecto plantilla, con: 
+* Cree un proyecto plantilla, con: 
   
   ```
   python -m django startproject project
@@ -30,7 +30,7 @@ python -m pip install psycopg2-binary django
 
 ## Notas
 
-Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) el uso de los archivos **manage.py**, **settings.py**, y **models.py** en un proyecto de Django.
+Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) la utilidad de los archivos **manage.py**, **settings.py**, y **models.py** en un proyecto de Django.
 
 ## Referencias
 
