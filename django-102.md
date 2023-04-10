@@ -45,7 +45,7 @@
 
 ## Notas
 
-* Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) la diferencia entre **proyecto y aplicación** y la estructura de archivos de una aplicación.
+* Revise en la [documentación de Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) la diferencia entre **proyecto y aplicación**, la estructura de archivos de una aplicación y la función **include()**.
 
 ## Referencias
 
