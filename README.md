@@ -9,10 +9,10 @@
 * [**Django - 103**](./django-103.md): Interacción con PostgreSQL mediante el ORM y el shell de Python.
 * [**Django - 104**](./django-104.md): Django Admin.
 
-## Créditos 
-
-* **[Temas de Jekyll](https://pages.github.com/themes/)**
-
 ## Referencias
 
 * Supported themes. (2023). Retrieved 4 April 2023, from https://pages.github.com/themes/
+
+## Créditos 
+
+* **[Temas de Jekyll](https://pages.github.com/themes/)**
