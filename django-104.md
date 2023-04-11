@@ -35,7 +35,7 @@
   admin.site.register(Product)
   ```
   
-  ❗ **Nota:** Explore la funcionalidad predeterminada de la  [Administración de Django](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/).
+  ❗ **Nota:** Explore la funcionalidad **Administración de Django** para los modelos **Section** y **Product**.
   
 ## Notas
 
