@@ -6,6 +6,23 @@
 
 ## Instrucciones
 
+* Modifique `api/models.py` al agregar el método [**\_\_str(obj)\_\_**](https://docs.djangoproject.com/en/4.2/ref/models/instances/#django.db.models.Model.__str__) en cada uno de los modelos **Section** y **Product**.
+
+  ```
+  class Section(models.Model):
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+    	return self.name
+
+  class Product(models.Model):
+    section = models.ForeignKey(Section, on_delete=models.CASCADE)
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+      return self.name + ' ('+self.section.name+')'
+  ```
+
 * Desde la línea de comandos [LC], cree el super usuario administrador, con:
 
   ```
