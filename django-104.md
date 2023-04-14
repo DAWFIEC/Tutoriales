@@ -12,7 +12,7 @@
   python manage.py createsuperuser
   ```
   
-  ❗**Nota:** Complete los datos solicitados para establecer las credenciales de acceso a la Administración de Django.
+  ❗**Nota:** Complete los datos (_username_, _email_ y _password_) solicitados para establecer las credenciales de acceso a la Administración de Django.
 
 * [LC] Levante el servicio, con:
 
