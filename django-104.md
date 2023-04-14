@@ -25,7 +25,7 @@
 
 ![Admin Site](https://docs.djangoproject.com/en/4.2/_images/admin02.png)
 
-* Habilite el **CRUD** en la Administración de Django para los modelos **Section** y **Product** en el archivo `polls/admin.py`
+* Modifique el archivo `polls/admin.py` para habilitar el manejo de las operaciones **CRUD** de los modelos **Section** y **Product** desde la Administración de Django, con:
 
   ```
   from django.contrib import admin
@@ -35,7 +35,7 @@
   admin.site.register(Product)
   ```
   
-  ❗ **Nota:** Explore la funcionalidad **Administración de Django** para los modelos **Section** y **Product**.
+  ❗ **Nota:** Explore la **Administración de Django** para el manejo de las operaciones **CRUD** de los modelos **Section** y **Product**.
   
 ## Notas
 
