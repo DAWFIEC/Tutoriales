@@ -56,6 +56,8 @@
 	section = models.ForeignKey(Section, on_delete=models.CASCADE)
 	name = models.CharField(max_length=200)
   ```
+  
+  ❗**Nota**: La relación entre los modelos Section y Producto es de uno-a-muchos, mediante el atributo **section** en la clase Producto.
 
 * [LC] Genere los archivos de migración de la aplicación **api**, con:
 
